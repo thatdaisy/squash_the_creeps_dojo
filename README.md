@@ -1,0 +1,1 @@
+Squash the Creeps is a free and open-source game demo for the Your first 3D game tutorial in the official Godot documentation.
