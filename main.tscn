@@ -72,7 +72,7 @@ mesh = SubResource("CylinderMesh_d464a")
 curve = SubResource("Curve3D_dhkms")
 
 [node name="SpawnLocation" type="PathFollow3D" parent="SpawnPath"]
-transform = Transform3D(0.000706152, 0, 1, 0, 1, 0, -1, 0, 0.000706152, -14.9859, 0, -15.0339)
+transform = Transform3D(0.000705795, 0, 1, 0, 1, 0, -1, 0, 0.000705795, -14.9859, 0, -15.0339)
 
 [node name="SpawnTimer" type="Timer" parent="."]
 wait_time = 3.0

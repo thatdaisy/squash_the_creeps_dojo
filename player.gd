@@ -30,6 +30,8 @@ func _physics_process(delta):
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
 		$Pivot.look_at(position + direction, Vector3.UP)
+		$MobDetector/MobCollision.look_at(position + direction, Vector3.UP)
+		$CollisionShape.look_at(position + direction, Vector3.UP)
 	
 	# Ground Velocity
 	target_velocity.x = direction.x * speed
