@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://41v4y5kymvos"]
+[gd_scene load_steps=7 format=3 uid="uid://41v4y5kymvos"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_2f5qq"]
+[ext_resource type="Script" path="res://ScoreLabel.gd" id="2_miy5l"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_t7sm3"]
 size = Vector3(100, 2, 100)
@@ -35,7 +36,7 @@ transform = Transform3D(1, -5.28801e-22, -1.10996e-22, 5.28177e-22, 1, -3.2619e-
 
 [node name="DirectionalLight" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.73495, -0.339061, -0.58727, 0.678121, 0.367475, 0.636485, -1.23481e-08, -0.866025, 0.5, 0.192387, 18, 22)
-light_energy = 5.0
+light_energy = 2.0
 shadow_enabled = true
 
 [node name="Cylinders" type="Node3D" parent="."]
@@ -83,6 +84,7 @@ size_flags_vertical = 8
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 60
 text = "Score: 0"
+script = ExtResource("2_miy5l")
 
 [node name="Retry" type="ColorRect" parent="UserInterface"]
 layout_mode = 1

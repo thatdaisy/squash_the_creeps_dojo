@@ -21,6 +21,12 @@ window/size/viewport_width=2304
 window/size/viewport_height=1296
 window/size/resizable=false
 
+[layer_names]
+
+3d_physics/layer_1="player"
+3d_physics/layer_2="mob"
+3d_physics/layer_3="floor"
+
 [rendering]
 
 quality/driver/driver_name="GLES2"
